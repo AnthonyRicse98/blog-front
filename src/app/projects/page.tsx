@@ -7,7 +7,7 @@ export default function ProjectsPage() {
     <div className="flex flex-row justify-center">
       <main className="w-[90%] md:w-[80%] lg:w-[50.15rem] flex my-12 md:my-16">
         <ShowcaseSection
-          title="Projects"
+          title="Mis Poryectos"
           contentType={ShowcaseTypeEnum.Project}
           renderContent={<ProjectContent />}
         />

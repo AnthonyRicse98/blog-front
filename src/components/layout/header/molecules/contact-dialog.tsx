@@ -14,12 +14,12 @@ const ContactDialog = () => {
     <Dialog>
       <DialogTrigger asChild>
         <Button type="button" variant="default" size="default">
-          Contact
+          Contacto
         </Button>
       </DialogTrigger>
       <DialogContent className="sm:max-w-[425px]" id="dots">
         <DialogHeader>
-          <DialogTitle>Contact Me</DialogTitle>
+          <DialogTitle>Contactame</DialogTitle>
         </DialogHeader>
         <ContactInformation />
       </DialogContent>

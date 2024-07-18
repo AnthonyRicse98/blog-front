@@ -13,10 +13,6 @@ async function ShowcaseProjectCard({ data }: { data: Partial<CardProps> }) {
         className="relative object-cover w-full border rounded-md lg:h-28 border-cd-gray/10 h-[9rem]"
         width={233}
         height={112}
-        placeholder="blur"
-        blurDataURL={await getBase64(
-          data.image?.src || defaultImages.image.src
-        )}
         src={data.image?.src || defaultImages.image.src}
         alt={data.image?.src || defaultImages.image.alt}
       />

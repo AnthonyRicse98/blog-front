@@ -10,10 +10,10 @@ const Footer = () => {
             <Link href="/">Home</Link>
           </li>
           <li>
-            <Link href="/about">About</Link>
+            <Link href="/about">Sobre mí</Link>
           </li>
           <li>
-            <Link href="/projects">Projects</Link>
+            <Link href="/projects">Proyectos</Link>
           </li>
           <li>
             <Link href="/posts">Blog</Link>
@@ -22,13 +22,10 @@ const Footer = () => {
             <Link href="/stack">Stack</Link>
           </li>
           <li>
-            <a href="https://github.com/carlosdtn">GitHub</a>
+            <a href="https://github.com/AnthonyRicse98">GitHub</a>
           </li>
           <li>
-            <a href="https://www.linkedin.com/in/carlos-tarmeno/">LinkedIn</a>
-          </li>
-          <li>
-            <a href="https://twitter.com/danielsec_">Twitter</a>
+            <a href="https://www.linkedin.com/in/anthony-elias-ricse-perez-a83591211/">LinkedIn</a>
           </li>
         </ul>
       </div>
@@ -39,9 +36,9 @@ const Footer = () => {
           <a
             className="transition duration-300 ease-in-out hover:underline hover:text-cd-light-blue focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-foreground/20 focus-visible:rounded-sm"
             target="_blank"
-            href="https://github.com/carlosdtn"
+            href="https://github.com/AnthonyRicse98"
           >
-            carlosdtn
+            Rishe
           </a>{' '}
         </p>
       </div>

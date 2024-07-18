@@ -23,34 +23,20 @@ export const stackData: stackProps = {
       icon: 'vscode-icons:file-type-tailwind'
     },
     {
-      name: '.NET',
-      icon: 'logos:dotnet'
-    },
-    {
-      name: 'C#',
-      icon: 'devicon:csharp'
-    },
-    {
       name: 'SQL Server',
       icon: 'simple-icons:microsoftsqlserver'
+    },
+    {
+      name: 'MySQL',
+      icon: 'devicon:mysql'
     },
     {
       name: 'React Native',
       icon: 'devicon:react'
     },
     {
-      name: 'WordPress',
-      icon: 'ion:logo-wordpress'
-    }
-  ],
-  learning: [
-    {
-      name: 'Angular',
-      icon: 'logos:angular-icon'
-    },
-    {
-      name: 'Astro',
-      icon: 'devicon:astro'
+      name:'Cloud Platform',
+      icon:'devicon:googlecloud'
     },
     {
       name: 'Redux',
@@ -60,17 +46,19 @@ export const stackData: stackProps = {
       name: 'MongoDB',
       icon: 'vscode-icons:file-type-mongo'
     },
-
-    {
-      name: 'Framer Motion',
-      icon: 'devicon:framermotion'
-    }
   ],
-  planning: [
+  learning: [
+    {
+      name: 'Angular',
+      icon: 'logos:angular-icon'
+    },
     {
       name: 'GraphQL',
       icon: 'vscode-icons:file-type-graphql'
     },
+    
+  ],
+  planning: [
     {
       name: 'Vue.js',
       icon: 'logos:vue'

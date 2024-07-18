@@ -14,19 +14,18 @@ async function AboutMeContent() {
           alt={PHOTO_DATA.avatar}
           width={80}
           height={80}
-          placeholder="blur"
-          blurDataURL={await getBase64(PHOTO_DATA.url)}
           className="w-20 h-20 border-4 rounded-full border-cd-dark-gray"
         />
         <div>
           <h1 className="font-bold text-center text-foreground md:text-start">
-            That's me, Carlos Tarmeño
+            Anthony Ricse
           </h1>
           <p className="text-sm text-center text-cd-gray md:text-start">
-            Graduate in Software Engineering with 1 year of experience in web
-            development, specializing in React, seeking opportunities to apply
-            my expertise in creating engaging and functional user interfaces.
-            Committed to continuous improvement and adaptability.
+            Mi nombre es Anthony Ricse, soy ingeniero Software de la Universidad Nacional Mayor de San Marcos 
+            con experiencia en web (React),
+            dispositivos móviles (Android ), con conocimientos de pruebas funcionales: unitarias. testing (+1 años) 
+            Apasionado por las arquitecturas frontend (Hexagonal y Clean Architecture),  y las integraciones frontend 
+            Vivo en Perú– Lima actualmente estoy trabajando en una empresa constructura de software Devmente 
           </p>
         </div>
       </div>

@@ -24,7 +24,7 @@ const TopicSection: React.FC<TopicSectionProps> = ({
             href={topicLink}
             className="px-1 font-semibold underline transition duration-300 ease-in-out border border-transparent rounded text-cd-light-blue hover:bg-cd-light-blue/10 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-foreground/20"
           >
-            Show all
+            Ver más
           </Link>
         </div>
       </div>

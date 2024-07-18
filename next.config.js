@@ -4,7 +4,7 @@ const { withContentlayer } = require('next-contentlayer');
 
 const nextConfig = {
   images: {
-    domains: ['res.cloudinary.com']
+    domains: ['res.cloudinary.com' , 'media.licdn.com' , "res-console.cloudinary.com"]
   },
   transpilePackages: ['three']
 };

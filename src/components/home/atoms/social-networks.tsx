@@ -14,9 +14,6 @@ const SocialNetWorks = () => {
       <a href={SocialNetworksData.linkedin} target="_blank">
         <IconBrandLinkedin />
       </a>
-      <a href={SocialNetworksData.x} target="_blank">
-        <IconBrandX />
-      </a>
     </>
   );
 };

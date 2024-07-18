@@ -13,12 +13,12 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: 'Carlos Tarmeño - Frontend Developer',
+  title: 'Anthony Ricse - Frontend Developer',
   description:
-    "Welcome to my portfolio! I'm Carlos Tarmeño, a dedicated Frontend Developer. Explore the projects and experiences that showcase my passion for creating engaging and responsive web solutions. Let's build something extraordinary together!",
+    "Bienvenido a mi Portafolio .Soy Anthony Ricse, soy Ingeniero de Software. Explora los proyectos que realizado en este portafolio!",
   keywords: [
-    'Carlos Tarmeño',
-    'Carlos Tarmeno',
+    'Anthony Ricse',
+    'Anthony Ricse',
     'Frontend Developer',
     'Web Development',
     'React',

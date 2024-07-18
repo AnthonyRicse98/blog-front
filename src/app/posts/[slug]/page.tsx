@@ -39,9 +39,7 @@ export default function PostPage({ params }: PostPageProps) {
           width={400}
           height={400}
         />
-        <article>
-          <MDXContent />
-        </article>
+
       </div>
     </PostLayout>
   );

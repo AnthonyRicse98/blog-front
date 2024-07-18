@@ -47,11 +47,11 @@ const HeaderLinkOptions: React.FC<HeaderLinkOptionsProps> = ({
 
 const navigateOptions = [
   {
-    name: 'About',
+    name: 'Sobre mí',
     href: '/about'
   },
   {
-    name: 'Projects',
+    name: 'Proyectos',
     href: '/projects'
   },
   {

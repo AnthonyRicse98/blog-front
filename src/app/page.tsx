@@ -15,12 +15,12 @@ export default function HomePage() {
         </div>
         <TopicSection
           topic={TopicTagEnum.Projects}
-          title="My recent projects"
+          title="Mis proyectos"
           topicLink="/projects"
         />
         <TopicSection
           topic={TopicTagEnum.Blog}
-          title="My recent posts"
+          title="Mis Publicaciones"
           topicLink="/posts"
         />
       </main>

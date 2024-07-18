@@ -11,12 +11,12 @@ const WorkExperienceItem: React.FC<WorkExperienceItemProps> = ({ data }) => {
     const start: Date = new Date(startDate);
     const end: Date = new Date(endDate);
     const startMonth: string = start
-      .toLocaleDateString('en-US', {
+      .toLocaleDateString('es-ES', {
         month: 'long'
       })
       .toLowerCase();
     const endMonth: string = end
-      .toLocaleDateString('en-US', {
+      .toLocaleDateString('es-ES', {
         month: 'long'
       })
       .toLowerCase();
