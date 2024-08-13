@@ -5,27 +5,27 @@ export const projectData: Omit<CardProps, 'tags'>[] = [
   {
     id: 1,
     date: '06-07-2023',
-    title: 'Social App',
+    title: 'App Lucy',
     description:
-      'Aplicativo web de red Social creado como proyecto Universitario',
+      'Aplicativo movil creado como proyecto Universitario para sustentación de tesis',
     resources: [
       {
         category: ResourceTypeEnum.Source,
-        link: 'https://github.com/unmsmfisi-socialapplication/social_app'
+        link: 'https://github.com/tesis-SanMarcos/app-tesis'
       }
     ],
     technologies: [
       {
-        name: 'React',
+        name: 'React Native',
         icon: 'devicon:react'
       },
       {
-        name: 'Next.js',
-        icon: 'logos:nextjs-icon'
+        name: 'JavaScript',
+        icon: 'devicon:javascript'
       },
       {
-        name: 'TypeScript',
-        icon: 'devicon:typescript'
+        name: 'Expo',
+        icon: 'devicon:expo'
       },
     ],
     image: {

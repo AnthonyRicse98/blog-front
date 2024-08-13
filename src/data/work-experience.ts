@@ -98,7 +98,7 @@ export const workExperienceData: WorkExperienceProps[] = [
     id: 5,
     workType: WorkTypeEnum.Corporate,
     company: 'Devmente Factory',
-    position: 'Analsita Frontend',
+    position: 'Analista Frontend',
     logo: {
       src: '/company-logo/devmentegang_logo.jpeg',
       alt: 'Devmente Factory'
