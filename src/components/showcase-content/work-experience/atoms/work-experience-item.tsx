@@ -1,6 +1,7 @@
-import { WorkExperienceProps } from '@/components/shared/types/types';
-import BadgeClass from './badge-class';
-import Image from 'next/image';
+import { WorkExperienceProps } from "@/components/shared/types/types";
+import BadgeClass from "./badge-class";
+import Image from "next/image";
+import React from "react";
 
 interface WorkExperienceItemProps {
   data: WorkExperienceProps;
@@ -11,13 +12,13 @@ const WorkExperienceItem: React.FC<WorkExperienceItemProps> = ({ data }) => {
     const start: Date = new Date(startDate);
     const end: Date = new Date(endDate);
     const startMonth: string = start
-      .toLocaleDateString('es-ES', {
-        month: 'long'
+      .toLocaleDateString("es-ES", {
+        month: "long",
       })
       .toLowerCase();
     const endMonth: string = end
-      .toLocaleDateString('es-ES', {
-        month: 'long'
+      .toLocaleDateString("es-ES", {
+        month: "long",
       })
       .toLowerCase();
     const startYear: number = start.getFullYear();
@@ -64,7 +65,23 @@ const WorkExperienceItem: React.FC<WorkExperienceItemProps> = ({ data }) => {
         </p>
         <ul className="flex flex-col gap-2 pl-5 text-sm list-disc list-outside text-cd-gray marker:text-cd-light-blue/40">
           {data.responsibilities.map((item, index) => (
-            <li key={index}>{item}</li>
+            <React.Fragment key={index}>
+              <div>
+                <span className="font-bold :">Projecto : </span>
+                <span>{item.projects}</span>
+              </div>
+              <span className="font-bold :">Tecnologia</span>
+              <span>{item.technology}</span>
+              <span className="font-bold :">Responsabilidades</span>
+
+              {Array.isArray(item.description) ? (
+                item.description.map((desc, descIndex) => (
+                  <li key={descIndex}>{desc}</li>
+                ))
+              ) : (
+                <li>No descriptions available</li>
+              )}
+            </React.Fragment>
           ))}
         </ul>
       </div>

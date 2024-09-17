@@ -52,5 +52,9 @@ export interface WorkExperienceProps {
   };
   startDate: string;
   endDate: string;
-  responsibilities: string[];
+  responsibilities: {
+    projects?: string ,
+    technology?: string ,
+    description? : string[], 
+  }[];
 }
