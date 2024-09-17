@@ -67,7 +67,7 @@ const WorkExperienceItem: React.FC<WorkExperienceItemProps> = ({ data }) => {
           {data.responsibilities.map((item, index) => (
             <React.Fragment key={index}>
               <div>
-                <span className="font-bold :">Projecto : </span>
+                <span className="font-bold :">Proyecto : </span>
                 <span>{item.projects}</span>
               </div>
               <span className="font-bold :">Tecnologia</span>

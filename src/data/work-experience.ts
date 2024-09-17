@@ -132,7 +132,7 @@ export const workExperienceData: WorkExperienceProps[] = [
       alt: "Devmente Factory",
     },
     startDate: "08-11-2023",
-    endDate: "09-22-204",
+    endDate: "09-22-2024",
     responsibilities: [
       {
         projects:
